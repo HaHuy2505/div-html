@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      html {
+        /* background-image: url("data:image/png;base64,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"); */
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* font-family: Georgia, 'Times New Roman', Times, serif */
+      }
+      body {
+          margin: 0;
+          box-sizing: border-box;
+      }
+      /* p {
+            color: green;
+        } */
+      /* .content {
+        width: 50%;
+        height: 200px;
+        background-color: wheat;
+      } */
+      .name {
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-transform: lowercase;
+        font-style: italic;
+        background-color: red;
+      }
+      #name {
+        color: greenyellow;
+      }
+      .age {
+        background-color: green;
+      }
+      .header {
+          background-color: blue;
+          height: 100px;
+      }
+      .content {
+          height: 500px;
+          /* background-color: red; */
+          display: flex;
+          /* flex-direction: row; */
+          margin-top: 8px;
+          margin-bottom: 8px;
+      }
+      .left {
+          width: 20%;
+          background-color: yellow;
+          /* top right bottom left */
+          padding: 5px; 
+      }
+      .main {
+          width: 60%;
+          background-color: pink;
+          margin-left: 8px;
+          margin-right: 8px;
+          padding: 5px; 
+      }
+      .right {
+          width: 20%;
+          background-color: burlywood;
+          padding: 5px; 
+      }
+      .footer {
+          background-color: green;
+          height: 100px;
+          border: 1px solid red;
+          border-radius: 8px;
+          /* border-bottom: 1px solid red; */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="content">
+      <p class="name">huy asjdashdva sdjasvjhasvdasvdjash asdasvjdvasdsa</p>
+      <p class="age">25</p>
+    </div> -->
+    <!-- <p style="color: red; font-size: 40px;">huy</p>
+    <p style="color: red; font-size: 40px;">toan</p> -->
+    <!-- <p class="age">25</p>
+    <p id="name">huy</p> -->
+    <div class="container">
+        <div class="header">
+             
+        </div>
+        <div class="content">
+            <div class="left">
+                <p>left shdfhds sdfsd sdf sdf</p>
+            </div>
+            <div class="main">
+                <p>main</p>
+            </div>
+            <div class="right">
+                <p>right</p>
+            </div>
+        </div>
+        <div class="footer"></div>
+    </div>
+  </body>
+</html>
