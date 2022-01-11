@@ -1,0 +1,15 @@
+body {
+    margin: 10px;
+    box-sizing: border-box;
+}
+/* .main {
+    width: 50px;
+    height: 60px;
+    background-color: aqua;
+    align-items: center;
+} */
+.left {
+    height: 500px;
+    width: 20%;
+    background-color: aqua;
+}
